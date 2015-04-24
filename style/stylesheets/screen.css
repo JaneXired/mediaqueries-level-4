@@ -66,3 +66,16 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 7, ../sass/screen.scss */
+body {
+  background: #eaeaea;
+  color: #333;
+}
+@media (light-level: dim) {
+  /* line 7, ../sass/screen.scss */
+  body {
+    color: #eaeaea;
+    background: #333;
+  }
+}

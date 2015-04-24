@@ -7,4 +7,9 @@
 body {
   background: #eaeaea;
   color: #333;
+
+  @media (light-level: dim) {
+    color: #eaeaea;
+    background: #333;
+  }
 }
